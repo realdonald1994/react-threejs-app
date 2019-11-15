@@ -1,4 +1,4 @@
 ## React+Three.js
 ### Demo
 
-![avatar](https://raw.githubusercontent.com/realdonald1994/react-threejs-app/master/earth.bmp)
+![avatar](https://github.com/realdonald1994/react-threejs-app/blob/master/demo.gif)
