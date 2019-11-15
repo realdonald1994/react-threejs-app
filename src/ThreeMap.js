@@ -40,9 +40,9 @@ class ThreeMap extends Component{
             scene.add(spotLight);
 
             let loader = new THREE.TextureLoader();
-            let planetTexture = require("./assets/imgs/planets/Earth.png");
+            let planetTexture = require("./assets/imgs/planets/Mars_2k-050104.png");
             loader.load(planetTexture,(texture)=>{
-                let geometry = new THREE.SphereGeometry(200,20,20);
+                let geometry = new THREE.SphereGeometry(200,200,200);
                 let matreial = new THREE.MeshBasicMaterial({map:texture,overdraw:0.5});
                 let mesh = new THREE.Mesh(geometry,matreial);
                 group.add(mesh);
@@ -64,7 +64,8 @@ class ThreeMap extends Component{
             stats.update();
         }
         function render() {
-            group.rotation.y = -0.005;
+            group.rotation.y += -0.005;
+            group.rotation.x += 0.005;
             renderer.render(scene,camera);
         }
     };
