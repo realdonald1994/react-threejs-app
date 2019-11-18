@@ -3,6 +3,8 @@ import './App.css';
 import ThreeMap from "./ThreeMap";
 import VisWithClas from "./VisWithClas";
 import Three from "./Three";
+import Earth from "./Earth";
+import GisThree from "./GisThree";
 
 function App() {
   return (
@@ -10,7 +12,9 @@ function App() {
       <div>
         {/*<ThreeMap/>*/}
         {/*<VisWithClas/>*/}
-        <Three/>
+        {/*<Three/>*/}
+        <Earth/>
+        {/*<GisThree/>*/}
       </div>
     </div>
   );
