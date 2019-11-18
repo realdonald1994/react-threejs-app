@@ -30,7 +30,7 @@ export default class Earth extends Component{
         this.mount.appendChild(renderer.domElement);
 
         //OrbitControl mouse interaction
-        const orbitControl = new Orbitcontrols(camera,renderer.domElement);
+        let orbitControl = new Orbitcontrols(camera,renderer.domElement);
         orbitControl.autoRotate = false;
 
 
@@ -64,7 +64,7 @@ export default class Earth extends Component{
     createLight = () =>{
         const ambi = new THREE.AmbientLight(0x686868);
         this.scene.add(ambi);
-        const spotLight = new THREE.DirectionalLight(0x404040);
+        const spotLight = new THREE.DirectionalLight(0xffffff);
         spotLight.position.set(550,100,550);
         spotLight.intensity = 0.5;
         this.scene.add(spotLight);
@@ -81,6 +81,7 @@ export default class Earth extends Component{
     animate=()=>{
         if(!this.isMouseDown){
             this.sphere.rotation.y += -0.005;
+            this.sphere.rotation.x += 0.005;
         }
         this.renderScene();
         requestAnimationFrame(this.animate);

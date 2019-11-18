@@ -4,7 +4,6 @@ import ThreeMap from "./ThreeMap";
 import VisWithClas from "./VisWithClas";
 import Three from "./Three";
 import Earth from "./Earth";
-import GisThree from "./GisThree";
 
 function App() {
   return (
@@ -14,7 +13,6 @@ function App() {
         {/*<VisWithClas/>*/}
         {/*<Three/>*/}
         <Earth/>
-        {/*<GisThree/>*/}
       </div>
     </div>
   );
