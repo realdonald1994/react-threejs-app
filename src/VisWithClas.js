@@ -40,6 +40,7 @@ class VisWithClas extends Component{
         this.nount.removeChild(this.renderer.domElement);
     }
 
+    //Adaptive screen (window) size
     handleResize = () =>{
         const width = this.mount.clientWidth;
         const height = this.mount.clientHeight;

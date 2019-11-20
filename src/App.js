@@ -4,6 +4,8 @@ import ThreeMap from "./ThreeMap";
 import VisWithClas from "./VisWithClas";
 import Three from "./Three";
 import Earth from "./Earth";
+import Simple from "./components/Simple";
+import DemoEarth from "./components/DemoEarth";
 
 function App() {
   return (
@@ -12,7 +14,9 @@ function App() {
         {/*<ThreeMap/>*/}
         {/*<VisWithClas/>*/}
         {/*<Three/>*/}
-        <Earth/>
+        {/*<Earth/>*/}
+        {/*<Simple width={window.innerWidth} height={window.innerHeight}/>*/}
+        {/*<DemoEarth width={window.innerWidth} height={window.innerHeight}/>*/}
       </div>
     </div>
   );

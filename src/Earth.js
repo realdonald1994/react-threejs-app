@@ -5,8 +5,6 @@ import Orbitcontrols from "three-orbitcontrols";
 
 export default class Earth extends Component{
     componentDidMount() {
-
-
         this.init();
     }
 
@@ -18,20 +16,31 @@ export default class Earth extends Component{
         const height = this.mount.clientHeight;
 
         const scene = new THREE.Scene();
-        const camera = new THREE.PerspectiveCamera(60,width/height,1,2000);
+        const camera = new THREE.PerspectiveCamera(60,window.innerWidth/window.innerHeight,1,2000);
         const renderer = new THREE.WebGLRenderer({antialias:true});
         this.scene = scene;
         this.camera = camera;
         this.renderer = renderer;
 
         renderer.setSize(width,height);
-        renderer.setClearColor('#000000');
+        renderer.setClearColor('#191919');
         renderer.setPixelRatio(window.devicePixelRatio);
         this.mount.appendChild(renderer.domElement);
 
-        //OrbitControl mouse interaction
-        let orbitControl = new Orbitcontrols(camera,renderer.domElement);
-        orbitControl.autoRotate = false;
+        //OrbitControl adjust camera
+        const orbitControl = new Orbitcontrols(camera,renderer.domElement);
+        //camera unable
+        // orbitControl.enabled = false;
+        //Damping
+        orbitControl.enableDamping = true;
+        orbitControl.dampingFactor = 0.25;
+        //auto rotate
+        orbitControl.autoRotate = true;
+        orbitControl.autoRotateSpeed = 1.0;
+        //mouse click rotate
+        orbitControl.enableRotate = true;
+        orbitControl.rotateSpeed = 0.3;
+        this.orbitControl = orbitControl;
 
 
         camera.position.x = -10;
@@ -80,8 +89,9 @@ export default class Earth extends Component{
 
     animate=()=>{
         if(!this.isMouseDown){
-            this.sphere.rotation.y += -0.005;
-            this.sphere.rotation.x += 0.005;
+            // this.sphere.rotation.y += -0.005;
+            // this.sphere.rotation.x += 0.005;
+            this.orbitControl.update();
         }
         this.renderScene();
         requestAnimationFrame(this.animate);
