@@ -6,6 +6,8 @@ import Three from "./Three";
 import Earth from "./Earth";
 import Simple from "./components/Simple";
 import DemoEarth from "./components/DemoEarth";
+import GltfEntry from "./GltfEntry";
+import Gltf from "./Gltf";
 
 function App() {
   return (
@@ -17,6 +19,7 @@ function App() {
         {/*<Earth/>*/}
         {/*<Simple width={window.innerWidth} height={window.innerHeight}/>*/}
         {/*<DemoEarth width={window.innerWidth} height={window.innerHeight}/>*/}
+        <Gltf/>
       </div>
     </div>
   );

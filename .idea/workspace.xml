@@ -2,17 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e790a592-f9a4-46f2-b7bf-740c1dc40ec0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/imgs/planets/earth_lights_2048.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/DemoEarth.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/components/Simple.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Scene.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Gltf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/GltfEntry.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/Bee.glb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/scene.glb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Earth.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Earth.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/VisWithClas.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/VisWithClas.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +25,7 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -38,6 +35,9 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhuang\WebstormProjects\react-threejs-app\src\assets" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zhuang\WebstormProjects\react-threejs-app\src\assets" />
       <recent name="C:\Users\zhuang\WebstormProjects\react-threejs-app\src\assets\imgs\planets" />
@@ -84,7 +84,8 @@
       <workItem from="1574104567252" duration="5493000" />
       <workItem from="1574173481694" duration="6005000" />
       <workItem from="1574179865098" duration="22489000" />
-      <workItem from="1574270028279" duration="1200000" />
+      <workItem from="1574270028279" duration="1516000" />
+      <workItem from="1574432890234" duration="17720000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1573850456919</created>
@@ -107,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574104929816</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="final">
+      <created>1574274421876</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1574274421876</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,6 +136,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="second" />
-    <option name="LAST_COMMIT_MESSAGE" value="second" />
+    <MESSAGE value="final" />
+    <option name="LAST_COMMIT_MESSAGE" value="final" />
   </component>
 </project>
