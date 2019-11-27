@@ -18,3 +18,63 @@ code {
   bottom: 0;
   left: 0;
 }
+.frame {
+  position: absolute;
+  left: 30%;
+  margin-left: -30px;
+  width: 600px;
+  height: auto;
+  /*border:1px solid #ccc;*/
+}
+.big{
+  position:absolute;
+  left:0;top:0;
+  width:85%;
+  border:1px solid #ccc;
+  height: 400px;
+}
+.show{
+  z-index: 0;
+  border: 2px solid #c4E3FF;
+  position: fixed;
+  left:20%;top:0;
+  width:1000px;height:530px;
+  display: block;
+}
+/*.background{*/
+/*  display: block; position: fixed; top: 0; right: 0; bottom: 0; left: 0; background-color: #ccc; opacity: .8; z-index: 10;*/
+/*}*/
+.popup{
+  position: absolute;
+  left: -55%;
+  right: 25%;
+  top: 25%;
+  bottom: 25%;
+  width: 1500px;
+  height: 1000px;
+  margin: auto;
+  background: whitesmoke;
+  border: 1px solid black;
+  display: flex;
+}
+.popup_inner1{
+  border-right: 1px solid black;
+  width: 1000px;
+  height: 1000px;
+}
+.inner_iframe{
+  margin-top: 400px;
+  width:900px
+
+}
+.popup_inner2{
+  background: whitesmoke;
+  width: 500px;
+  height: 1000px;
+}
+.inner_text{
+  margin: 10px;
+  margin-top: 390px;
+  height: 580px;
+  border: 1px solid black;
+}
