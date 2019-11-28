@@ -10,6 +10,7 @@ import GltfEntry from "./GltfEntry";
 import Gltf from "./Gltf";
 import Iframe from "./Iframe";
 import SketchfabApi from "./SketchfabApi";
+import ExampleApp from "./examples/ExampleApp";
 
 function App() {
   return (
@@ -24,15 +25,15 @@ function App() {
         {/*<Gltf/>*/}
         <Iframe
             title="A 3D model"
-            url="https://sketchfab.com/models/b994a38b08264c31a0711d65c0e19d45/embed?autospin=0.2&amp;ui_hint=2&amp;preload=1"
+            url="https://sketchfab.com/models/b994a38b08264c31a0711d65c0e19d45/embed?preload=1"
             width="1000"
             height="480"
-            frameBorder="0"
             allow="autoplay; fullscreen; vr"
             mozallowfullscreen="true"
             webkitallowfullscreen="true"
         />
         {/*<SketchfabApi urlid="dd958716be0b4786b8700125eec618e5"/>*/}
+        {/*<ExampleApp/>*/}
       </div>
     </div>
   );

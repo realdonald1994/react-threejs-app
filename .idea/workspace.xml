@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e790a592-f9a4-46f2-b7bf-740c1dc40ec0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Iframe.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SketchfabApi.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/Untitled.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/ExampleApp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/classes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/examples/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Iframe.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Iframe.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,12 +42,12 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2019.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\zhuang\WebstormProjects\react-threejs-app\src\assets" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\zhuang\WebstormProjects\react-threejs-app\src\assets" />
       <recent name="C:\Users\zhuang\WebstormProjects\react-threejs-app\src\assets\imgs\planets" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\zhuang\WebstormProjects\react-threejs-app\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -62,8 +62,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="Node.js.ExampleApp.js">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="ExampleApp.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/examples/ExampleApp.js" working-dir="$PROJECT_DIR$/src/examples">
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -76,6 +79,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.ExampleApp.js" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,7 +101,7 @@
       <workItem from="1574179865098" duration="22489000" />
       <workItem from="1574270028279" duration="1516000" />
       <workItem from="1574432890234" duration="45832000" />
-      <workItem from="1574873724523" duration="4432000" />
+      <workItem from="1574873724523" duration="18572000" />
     </task>
     <task id="LOCAL-00001" summary="second">
       <created>1573850456919</created>
@@ -130,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1574457623015</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="final">
+      <created>1574880928586</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1574880928586</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
