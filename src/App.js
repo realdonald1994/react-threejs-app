@@ -12,6 +12,7 @@ import Iframe from "./Iframe";
 import SketchfabApi from "./SketchfabApi";
 import ExampleApp from "./examples/ExampleApp";
 
+
 function App() {
   return (
     <div className="App">
@@ -27,10 +28,8 @@ function App() {
             title="A 3D model"
             url="https://sketchfab.com/models/b994a38b08264c31a0711d65c0e19d45/embed?preload=1"
             width="1000"
-            height="480"
+            height="500"
             allow="autoplay; fullscreen; vr"
-            mozallowfullscreen="true"
-            webkitallowfullscreen="true"
         />
         {/*<SketchfabApi urlid="dd958716be0b4786b8700125eec618e5"/>*/}
         {/*<ExampleApp/>*/}
